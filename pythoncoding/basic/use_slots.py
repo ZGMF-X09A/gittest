@@ -1,7 +1,6 @@
 class Student(object):
-    __slot__ = ('name', 'age') #用tuple定义允许绑定的属性名称
-
+    __slots__ = ('name', 'age')    
 s = Student()
 s.name = 'Michael'
-s.age = 25
+s.age = 18
 s.score = 99
